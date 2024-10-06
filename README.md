@@ -1,6 +1,6 @@
 # Helpful YOLOv11 Actions
 
-This repository contains a Jupyter notebook for training with YOLOv11
+This repository demonstrates helpful actions using YOLOv11. It includes functionality for loading a pre-trained model, performing training, continuing training after an early stoppage, performing inference, updating class labels, etc.
 
 ## Overview
 
