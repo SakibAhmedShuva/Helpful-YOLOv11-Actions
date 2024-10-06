@@ -1,4 +1,4 @@
-# YOLOv11 Training
+# Helpful YOLOv11 Actions
 
 This repository contains a Jupyter notebook for training with YOLOv11
 
