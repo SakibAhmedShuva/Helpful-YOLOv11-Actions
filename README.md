@@ -8,8 +8,9 @@ This notebook demonstrates how to:
 1. Set up the necessary dependencies
 2. Load a pre-trained YOLO model
 3. Download a custom dataset from Roboflow
-4. Train the model on the custom dataset
-5. Export the trained model to ONNX format
+4. Train the model on the custom dataset on GPU
+5. Continue training the model from the last epoch
+6. Export the trained model to ONNX format
 
 ## Prerequisites
 
@@ -30,10 +31,6 @@ pip install -U ipywidgets
 ## Dataset
 
 The notebook uses a custom dataset from Roboflow. The dataset is automatically downloaded using the Roboflow API during execution.
-
-## Model
-
-The base model used is `yolo11x-seg.pt`, which is then fine-tuned on the custom flower dataset.
 
 ## Training
 
@@ -57,13 +54,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics) for the YOLO implementation
-- [Roboflow](https://roboflow.com/) for dataset management
 
 ## Contributing
 
 Feel free to open issues or submit pull requests for any improvements.
-
----
-
-⭐ Star this repository if you find it helpful!
-
