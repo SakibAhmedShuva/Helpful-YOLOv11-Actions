@@ -32,15 +32,6 @@ pip install -U ipywidgets
 
 The notebook uses a custom dataset from Roboflow. The dataset is automatically downloaded using the Roboflow API during execution.
 
-## Training
-
-The model is trained with the following parameters:
-- Epochs: 600
-- Image size: 640x640
-- Batch size: 4
-- Workers: 4
-- Random seed: 101
-
 ## Usage
 
 1. Open the notebook in a Jupyter environment
