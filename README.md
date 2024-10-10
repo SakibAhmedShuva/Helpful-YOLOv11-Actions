@@ -5,12 +5,14 @@ This repository demonstrates helpful actions using YOLOv11. It includes function
 ## Overview
 
 This notebook demonstrates how to:
-1. Set up the necessary dependencies
-2. Load a pre-trained YOLO model
-3. Download a custom dataset from Roboflow
-4. Train the model on the custom dataset on GPU
-5. Continue training the model from the last epoch
-6. Export the trained model to ONNX format
+- Training YOLOv11 models
+- Multiple training options
+- Resume training from checkpoints
+- Model evaluation
+- Inference from a pretrained YOLOv11 model
+- Check labels of a pretrained YOLOv11 model
+- Modify classes/labels
+- export the revised model
 
 ## Prerequisites
 
